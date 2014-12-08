@@ -12,7 +12,7 @@ import zipfile
 __version__ = '0.1'
 USER_AGENT = 'appengine.py/'+ __version__
 VERSION_URL = 'https://appengine.google.com/api/updatecheck'
-DOWNLOAD_URL = 'http://googleappengine.googlecode.com/files/google_appengine_{0}.zip'
+DOWNLOAD_URL = 'https://storage.googleapis.com/appengine-sdks/featured/google_appengine_{0}.zip'
 _progress_chars = itertools.cycle('-\|/')
 sdk_version_key = 'APPENGINEPY_SDK_VERSION'
 
